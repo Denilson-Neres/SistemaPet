@@ -1,0 +1,11 @@
+br\edu\ifnmg\persistencia_pets\FornecedorDAO.class
+br\edu\ifnmg\persistencia_pets\ProdutoDAO.class
+br\edu\ifnmg\persistencia_pets\AnimalDAO.class
+br\edu\ifnmg\persistencia_pets\OrdemServicoDAO.class
+br\edu\ifnmg\persistencia_pets\PessoaDAO.class
+br\edu\ifnmg\persistencia_pets\RelatorioFinancasDAO.class
+br\edu\ifnmg\persistencia_pets\ClienteDAO.class
+br\edu\ifnmg\persistencia_pets\CompraDAO.class
+br\edu\ifnmg\persistencia_pets\UsuarioDAO.class
+br\edu\ifnmg\persistencia_pets\ServicoDAO.class
+br\edu\ifnmg\persistencia_pets\DataAccessObject.class

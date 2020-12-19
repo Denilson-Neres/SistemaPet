@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="UP" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>br.edu.ifnmg.logica.aplicacao.Animal</class>
+    <class>br.edu.ifnmg.logica.aplicacao.Cliente</class>
+    <class>br.edu.ifnmg.logica.aplicacao.Compra</class>
+    <class>br.edu.ifnmg.logica.aplicacao.Fornecedor</class>
+    <class>br.edu.ifnmg.logica.aplicacao.ItemOrdemServico</class>
+    <class>br.edu.ifnmg.logica.aplicacao.OrdemServico</class>
+    <class>br.edu.ifnmg.logica.aplicacao.Pessoa</class>
+    <class>br.edu.ifnmg.logica.aplicacao.Produto</class>
+    <class>br.edu.ifnmg.logica.aplicacao.RelatorioFinancas</class>
+    <class>br.edu.ifnmg.logica.aplicacao.Servico</class>
+    <class>br.edu.ifnmg.logica.aplicacao.Usuario</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/SistemaPet?useTimezone=true&amp;serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="dnsj"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Dnsj36216666"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

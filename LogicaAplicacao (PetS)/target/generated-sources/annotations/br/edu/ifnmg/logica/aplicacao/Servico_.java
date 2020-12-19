@@ -1,0 +1,18 @@
+package br.edu.ifnmg.logica.aplicacao;
+
+import java.math.BigDecimal;
+import javax.annotation.processing.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2020-12-17T21:54:43", comments="EclipseLink-2.7.7.v20200504-rNA")
+@StaticMetamodel(Servico.class)
+public class Servico_ { 
+
+    public static volatile SingularAttribute<Servico, String> Situacao;
+    public static volatile SingularAttribute<Servico, String> EspecialDoAnimal;
+    public static volatile SingularAttribute<Servico, BigDecimal> valor;
+    public static volatile SingularAttribute<Servico, Long> id;
+    public static volatile SingularAttribute<Servico, String> responsavel;
+
+}
